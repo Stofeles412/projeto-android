@@ -56,6 +56,7 @@ padding-bottom: 50px;
 header > p{
     color: white;
     
+    
 
 }
 nav{
@@ -90,6 +91,7 @@ header{
 min-height: 150px;
 text-align: center;
 text-shadow: rgba(0, 0, 0, 0.61) 1px 1px 1px;
+margin-bottom: -15px;
 
 
 }
@@ -102,6 +104,7 @@ nav > a{
 }
 nav > a:hover{
     background-color: #3ddc84;
+    
 }
 ul{
 background-color: #3fd884;
@@ -153,4 +156,6 @@ div.video > iframe{
     width: 90%;
     height: 90%;
 
+}nav{
+margin-bottom: 5%;
 }
