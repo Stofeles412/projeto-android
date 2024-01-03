@@ -159,3 +159,9 @@ div.video > iframe{
 }nav{
 margin-bottom: 5%;
 }
+
+@media screen and (max-width: 630px){
+#itens-ul{
+   display: none;
+}
+}
