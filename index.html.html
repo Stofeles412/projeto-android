@@ -10,7 +10,9 @@
     <header>
         <h1>Curiosidades de tecnlogia.</h1>
         <p>Tudo aquilo que você quis saber sobre o mundo tech, em um único lugar. </p>
+        <img src="imagens/menu.png" alt="menu" id="botao-menu" onclick="openMenu()">
     </header>
+   
     <nav id="itens-ul">
         <a href="#"> Home</a>
         <a href="#">Noticías</a>
@@ -96,5 +98,19 @@
 <footer>
     <p>Site criado por <a href="https://github.com/gustavoguanabara" target="_blank" class="externo">Gustavo Guanabara </a>para o <a href="https://www.youtube.com/watch?v=I_vi2q6sC1k&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=35" target="_blank" class="externo">CursoemVideo</a>. </p>
 </footer>
+<script>
+    function openMenu(){
+        var menu = window.document.getElementById('itens-ul')
+        var icone = window.document.getElementById('botao-menu')
+       if (menu.style.display == 'none'){
+        menu.style.display = 'block'
+        icone.src = 'imagens/menu-fechado.png.png'
+      
+       }else{
+        menu.style.display = 'none'
+        icone.src = 'imagens/menu.png'
+       }
+    }
+</script>
 
 </html>

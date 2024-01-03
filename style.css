@@ -159,9 +159,24 @@ div.video > iframe{
 }nav{
 margin-bottom: 5%;
 }
+#botao-menu{
+    display: none;
+}
+#itens-ul{
+    display: block;
+}
 
 @media screen and (max-width: 630px){
 #itens-ul{
    display: none;
+}
+#botao-menu{
+    width: 30px;
+    display: flex;
+    margin: auto;
+}
+#botao-menu:hover{
+    cursor: pointer;
+    background-color: #83e1ad;
 }
 }
